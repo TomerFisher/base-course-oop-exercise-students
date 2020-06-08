@@ -3,7 +3,7 @@ package AerialVehicles.FighterJets;
 import AerialVehicles.AerialAttackVehicle;
 import AerialVehicles.AerialVehicle;
 
-public class FighterJetsKit extends AerialVehicle implements AerialAttackVehicle{
+public abstract class FighterJetsKit extends AerialVehicle implements AerialAttackVehicle{
     private int numberOfMissiles;
     private String missileType;
 
